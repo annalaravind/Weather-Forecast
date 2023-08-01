@@ -1,0 +1,40 @@
+/* Navbar1.js   ////////////////////////////////////////////////////////////////////////////// */
+.header {
+    border: 1px solid white;
+    width: 100%;
+    height: 120px;
+    background-color: #25011b;
+    position: fixed;
+}
+
+.block2 {
+    width: 100%;
+    height: 120px;
+}
+
+.block2 ul {
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.block2 ul li {
+    list-style: none;
+    width: 300px;
+    text-align: center;
+}
+
+.block2 ul li .link {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+
+.block2 ul li .link:hover {
+    font-size: 27px;
+    text-decoration: underline;
+    color: red;
+    transition-duration: 200ms;
+}

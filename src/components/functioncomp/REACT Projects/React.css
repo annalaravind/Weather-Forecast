@@ -1,0 +1,334 @@
+/* Calculator  ///////////////////// */
+
+.formIn {
+    width: 100%;
+    height: 100%;
+    padding-top: 150px;
+}
+
+.box {
+    width: 350px;
+    height: 450px;
+    margin: 0px auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px black;
+    background: linear-gradient(to top right, #660066 24%, #ff0066 100%);
+}
+
+.div {
+    width: 350px;
+    height: 100px;
+}
+
+.div input {
+    width: 325px;
+    height: 80px;
+    margin: 9px 14px;
+    border-radius: 10px;
+    font-size: 40px;
+    padding: 10px;
+    text-align: right;
+    background-color: lightblue;
+    outline: none;
+}
+
+.div1 {
+    width: 350px;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.div1 input {
+    background: none;
+    font-size: 23px;
+    width: 75px;
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+}
+
+.div1 input:hover {
+    background-color: rgb(120, 2, 2);
+    color: white;
+    transition: 200ms;
+}
+
+.div2 {
+    width: 350px;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.div2 input {
+    background: none;
+    font-size: 25px;
+    width: 75px;
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+}
+
+.div2 input:hover {
+    background-color: rgb(120, 2, 2);
+    color: white;
+    transition: 200ms;
+}
+
+.div3 {
+    width: 350px;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.div3 input {
+    background: none;
+    font-size: 25px;
+    width: 75px;
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+}
+
+.div3 input:hover {
+    background-color: rgb(120, 2, 2);
+    color: white;
+    transition: 200ms;
+}
+
+.div4 {
+    width: 350px;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.div4 input {
+    background: none;
+    font-size: 25px;
+    width: 75px;
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+}
+
+.div4 input:hover {
+    background-color: rgb(120, 2, 2);
+    color: white;
+    transition: 200ms;
+}
+
+.div5 {
+    width: 350px;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.div5 input {
+    background: none;
+    font-size: 25px;
+    width: 75px;
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+}
+
+.div5 input:hover {
+    background-color: rgb(120, 2, 2);
+    color: white;
+    transition: 200ms;
+}
+
+.div5 .equal {
+    background: none;
+    font-size: 25px;
+    width: 155px;
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+}
+
+.div5 .equal:hover {
+    background-color: rgb(120, 2, 2);
+    color: white;
+    transition: 200ms;
+}
+
+/* To do List  ///////////////////////////////*/
+
+.ThisToDo {
+    border: 2px solid white;
+    width: 100%;
+    height: 100%;
+}
+
+.App_body {
+    border: 2px solid black;
+    width: 350px;
+    padding: 10px;
+    margin: 200px auto;
+    box-shadow: 0px 0px 20px black;
+}
+
+p {
+    text-align: center;
+    font-size: 30px;
+    color: black;
+}
+
+p:hover {
+    text-decoration: underline;
+}
+
+.App_input {
+    display: flex;
+    justify-content: space-between;
+}
+
+.App_input input {
+    width: 250px;
+    height: 40px;
+    font-size: 20px;
+    outline: none;
+    border: none;
+    background: none;
+    color: black;
+    border-bottom: 1px solid black;
+}
+
+.App_input button {
+    width: 70px;
+    height: 40px;
+    font-size: 20px;
+}
+
+.App_list {
+    margin-top: 20px;
+    height: auto;
+}
+
+.App_list ul {
+    list-style-type: none;
+    padding-right: 10px;
+}
+
+.App_listEach {
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.App_listEach1 {
+    padding: 6px 10px 0px 0px;
+    font-size: 20px;
+    color: black;
+}
+
+.App_listEach2 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5px;
+}
+
+.App_listEach2 li {
+    width: 200px;
+    overflow: hidden;
+    font-size: 20px;
+    color: black;
+}
+
+.App_listEach2 .Icons {
+    font-size: 25px;
+    cursor: pointer;
+    padding-top: 5px;
+    color: black;
+}
+
+.App_listEach2 .Edit {
+    font-size: 25px;
+    margin: 5px 10px 0px 0px;
+    color: black;
+    cursor: pointer;
+}
+
+/* Weather App ///////////////////////////// */
+
+.weather_back {
+    width: 100%;
+    height: 762px;
+    padding: 100px;
+    background-image: url("/IMAGES/weather.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.weather {
+    width: 600px;
+    height: 580px;
+    margin: auto;
+    padding: 50px;
+}
+
+.form input {
+    border: 3px solid white;
+    outline: none;
+    width: 400px;
+    margin: 10px;
+    height: 50px;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 0px 15px;
+    border-radius: 30px;
+    background: none;
+    color: black;
+}
+
+.form button {
+    width: 75px;
+    height: 75px;
+    border: none;
+    background: none;
+    border-radius: 50%;
+}
+
+.logo {
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 13px;
+}
+
+.logo:hover {
+    font-size: 38px;
+    transition: 200ms;
+}
+
+.result {
+    width: 400px;
+    height: 50px;
+    margin: 150px auto;
+    text-align: center;
+}
+
+.result span {
+    font-size: 40px;
+    font-weight: 600;
+    color: black;
+}
+
+.result:hover {
+    font-size: 45px;
+    font-weight: 700;
+    transition: 200ms;
+    cursor: pointer;
+}
